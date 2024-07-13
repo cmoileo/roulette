@@ -26,7 +26,7 @@ function App() {
 
     return (
         <>
-            {confetti && <Confetti initialY={100} width={width} height={height} />}
+            {confetti && <Confetti width={width} height={height} />}
             <div>
                 <h1>Code couleur :</h1>
                 <div style={{display: "flex", gap: "30px", alignItems:"center"}}>
